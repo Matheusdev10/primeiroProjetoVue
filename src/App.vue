@@ -1,17 +1,18 @@
-
 <script setup>
-import Button from './components/Button.vue'
-import Usuarios from "./components/Usuarios.vue"
-import Api from "./components/Api.vue"
+import Button from './components/Button.vue';
+import Usuarios from './components/Usuarios.vue';
+import Api from './components/Api.vue';
+import Dog from './components/Dog.vue';
 
-import { ref } from 'vue'
-const count = ref(10)
+import { ref } from 'vue';
+const count = ref(10);
 </script>
 
 <template>
   <!-- <Usuarios></Usuarios>
   <Button v-bind:count="count"></Button> -->
   <Api></Api>
+  <Dog />
 </template>
 
 <style scoped>
